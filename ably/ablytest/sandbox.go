@@ -13,7 +13,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/ably/ably-go/ably"
+	"github.com/DavidHuie/ably-go/ably"
 )
 
 type Key struct {

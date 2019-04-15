@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ably/ably-go/ably/internal/ablyutil"
+	"github.com/DavidHuie/ably-go/ably/internal/ablyutil"
 
-	"github.com/ably/ably-go/ably/proto"
+	"github.com/DavidHuie/ably-go/ably/proto"
 )
 
 // based on HttpUtils::encodeURIComponent from ably-java library

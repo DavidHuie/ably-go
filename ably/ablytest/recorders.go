@@ -13,9 +13,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ably/ably-go/ably"
-	"github.com/ably/ably-go/ably/internal/ablyutil"
-	"github.com/ably/ably-go/ably/proto"
+	"github.com/DavidHuie/ably-go/ably"
+	"github.com/DavidHuie/ably-go/ably/internal/ablyutil"
+	"github.com/DavidHuie/ably-go/ably/proto"
 )
 
 // RoundTripRecorder is a http.Transport wrapper which records

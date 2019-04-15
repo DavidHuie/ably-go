@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/ably/ably-go/ably"
+	"github.com/DavidHuie/ably-go/ably"
 )
 
 func nonil(err ...error) error {

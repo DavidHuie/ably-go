@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/ably/ably-go/ably/proto"
+	"github.com/DavidHuie/ably-go/ably/proto"
 )
 
 var (

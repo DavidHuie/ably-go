@@ -3,7 +3,7 @@ package proto_test
 import (
 	"testing"
 
-	"github.com/ably/ably-go/ably/proto"
+	"github.com/DavidHuie/ably-go/ably/proto"
 )
 
 func TestGenerateRandomKey(t *testing.T) {

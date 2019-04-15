@@ -13,11 +13,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ably/ably-go/ably/internal/ablyutil"
+	"github.com/DavidHuie/ably-go/ably/internal/ablyutil"
 
-	"github.com/ably/ably-go/ably"
-	"github.com/ably/ably-go/ably/ablytest"
-	"github.com/ably/ably-go/ably/proto"
+	"github.com/DavidHuie/ably-go/ably"
+	"github.com/DavidHuie/ably-go/ably/ablytest"
+	"github.com/DavidHuie/ably-go/ably/proto"
 )
 
 func TestRestChannel(t *testing.T) {
@@ -206,7 +206,7 @@ func TestIdempotentPublishing(t *testing.T) {
 		t.Fatal(err)
 	}
 	defer app.Close()
-	options := app.Options(&ably.ClientOptions{IdempotentRestPublishing:true})
+	options := app.Options(&ably.ClientOptions{IdempotentRestPublishing: true})
 	client, err := ably.NewRestClient(options)
 	if err != nil {
 		t.Fatal(err)
@@ -428,8 +428,8 @@ func TestIdempotent_retry(t *testing.T) {
 		}))
 
 		nopts := &ably.ClientOptions{
-			NoTLS:                   true,
-			FallbackHostsUseDefault: true,
+			NoTLS:                    true,
+			FallbackHostsUseDefault:  true,
 			IdempotentRestPublishing: true,
 			AuthOptions: ably.AuthOptions{
 				UseTokenAuth: true,

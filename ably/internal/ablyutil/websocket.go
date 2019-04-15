@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/ably/ably-go/ably/proto"
+	"github.com/DavidHuie/ably-go/ably/proto"
 
 	"golang.org/x/net/websocket"
 )

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ably/ably-go/ably"
-	"github.com/ably/ably-go/ably/ablytest"
+	"github.com/DavidHuie/ably-go/ably"
+	"github.com/DavidHuie/ably-go/ably/ablytest"
 )
 
 func TestChannel_Presence(t *testing.T) {

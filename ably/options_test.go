@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/ably/ably-go/ably"
+	"github.com/DavidHuie/ably-go/ably"
 )
 
 func TestClientOptions(t *testing.T) {

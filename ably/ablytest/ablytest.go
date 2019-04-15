@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ably/ably-go/ably"
-	"github.com/ably/ably-go/ably/internal/ablyutil"
+	"github.com/DavidHuie/ably-go/ably"
+	"github.com/DavidHuie/ably-go/ably/internal/ablyutil"
 )
 
 var Timeout = 30 * time.Second

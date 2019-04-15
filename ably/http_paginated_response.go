@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/ably/ably-go/ably/proto"
+	"github.com/DavidHuie/ably-go/ably/proto"
 )
 
 // HTTPPaginatedResponse represent a response from an http request.

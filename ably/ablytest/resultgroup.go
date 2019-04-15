@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ably/ably-go/ably"
+	"github.com/DavidHuie/ably-go/ably"
 )
 
 func Wait(res ably.Result, err error) error {

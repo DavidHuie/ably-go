@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ably/ably-go/ably/ablytest"
-	"github.com/ably/ably-go/ably/proto"
+	"github.com/DavidHuie/ably-go/ably/ablytest"
+	"github.com/DavidHuie/ably-go/ably/proto"
 )
 
 type custom struct{}

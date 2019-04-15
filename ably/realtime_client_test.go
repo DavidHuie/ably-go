@@ -5,8 +5,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ably/ably-go/ably"
-	"github.com/ably/ably-go/ably/ablytest"
+	"github.com/DavidHuie/ably-go/ably"
+	"github.com/DavidHuie/ably-go/ably/ablytest"
 )
 
 func TestRealtimeClient_RealtimeHost(t *testing.T) {

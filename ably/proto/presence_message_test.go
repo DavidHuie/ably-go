@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ably/ably-go/ably/internal/ablyutil"
-	"github.com/ably/ably-go/ably/proto"
+	"github.com/DavidHuie/ably-go/ably/internal/ablyutil"
+	"github.com/DavidHuie/ably-go/ably/proto"
 )
 
 func TestPresenceMessage(t *testing.T) {

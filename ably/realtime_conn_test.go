@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ably/ably-go/ably"
-	"github.com/ably/ably-go/ably/ablytest"
+	"github.com/DavidHuie/ably-go/ably"
+	"github.com/DavidHuie/ably-go/ably/ablytest"
 )
 
 func await(fn func() ably.StateEnum, state ably.StateEnum) error {

@@ -6,10 +6,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ably/ably-go/ably"
+	"github.com/DavidHuie/ably-go/ably"
 
-	"github.com/ably/ably-go/ably/ablytest"
-	"github.com/ably/ably-go/ably/proto"
+	"github.com/DavidHuie/ably-go/ably/ablytest"
+	"github.com/DavidHuie/ably-go/ably/proto"
 )
 
 func TestHTTPPaginatedResponse(t *testing.T) {

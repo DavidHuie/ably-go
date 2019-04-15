@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ably/ably-go/ably/proto"
+	"github.com/DavidHuie/ably-go/ably/proto"
 )
 
 // StateType specifies which group of states is relevant in given context;
