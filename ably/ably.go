@@ -1,4 +1,4 @@
-package ably
+package ably // import "github.com/ably/ably-go/ably"
 
 //go:generate go run ../scripts/errors.go -json ../common/protocol/errors.json -o errors.go
 

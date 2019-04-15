@@ -1,4 +1,4 @@
-module github.com/ably/ably-go
+module github.com/DavidHuie/ably-go
 
 require (
 	github.com/ugorji/go v1.1.4
